@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Forms Name"
+AuthUserFile "/home/starcorpus2017/.htpasswds/public_html/forms/passwd"
+require valid-user
+Options +Indexes
+IndexOptions -FancyIndexing
