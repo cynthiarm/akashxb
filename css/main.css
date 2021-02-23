@@ -4726,3 +4726,16 @@ flex-wrap: wrap;
 .px_-fs-16 {
     font-size: 16px;
 }
+
+.title
+{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    display: block;
+    font-size: 72px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

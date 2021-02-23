@@ -50,10 +50,7 @@ $(window).load(function() {
         o: fadeIn.o
     }];
 
-    $(".logo").css("opacity", "0");
-    $(".home h1").css("opacity", "0");
-    $(".home h2").css("opacity", "0");
-    $(".scroll-down").css("opacity", "0");
+
 
     setTimeout(function() {
         $.Velocity.RunSequence(homeInSequence); //home page loads in
