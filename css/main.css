@@ -854,7 +854,7 @@ fieldset[disabled] .btn-default.active {
     background-repeat: no-repeat;
     background-position-y:top;
     background-position-y: center;
-    background: url(../img/fondo.jpg) rgb(134 133 133 / 30%);
+    background: url(../img/Fondo.jpg) rgb(134 133 133 / 30%);
     background-size: cover;
     background-blend-mode: multiply;
     -webkit-background-size: cover;
