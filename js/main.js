@@ -635,9 +635,51 @@ $(function() {
 
 
 
-   $('.message a').click(function(){
+  /* $('.message a').click(function(){
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
         warning.alert("working");
-     });
+     });*/
+
+     $("#contactForm").login(function(e) {
+        e.preventDefault();
+    }).validate({
+        rules: {
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            },
+        },
+        messages: {
+            email: "We need your email address",
+            password: "Please enter your password",
+        },
+        submitHandler: function(login) {
+
+            $("#js-btn-default").attr("disabled", true);
+
+            /* 
+            CHECK PAGE FOR REDIRECT (Thank you page)
+            ---------------------------------------- */
+
+            var redirect = $('#phpcontactform').data('redirect');
+            var noredirect = false;
+            if (redirect == 'none' || redirect == "" || redirect == null) {
+                noredirect = true;
+            }
+
+            $("#js-contact-result").html('<p class="help-block">Please wait...</p>');
+
+
+
+
+
+
+
+
+
+
 
 }); /* End Strict Function */
+
+
