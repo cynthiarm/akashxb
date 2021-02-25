@@ -625,9 +625,14 @@ $(function() {
     /* ================================================
        Login form
        ================================================ */
+    function login(){
+
+        warning.alert("working");
+    }
 
 
-       
+
+
     $('.message a').click(function(){
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
      });
