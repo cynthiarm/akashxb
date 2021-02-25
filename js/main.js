@@ -627,16 +627,17 @@ $(function() {
        ================================================ */
    
 
-    $(function login()
+   /*  $(function login()
 
         warning.alert("working");
-    }
+    }*/
 
 
 
 
-   /* $('.message a').click(function(){
+   $('.message a').click(function(){
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-     });*/
+        warning.alert("working");
+     });
 
 }); /* End Strict Function */
