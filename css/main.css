@@ -4490,7 +4490,7 @@ textarea {
 .login-form input {
   font-family: "Josefin Sans", sans-serif;
   outline: 0;
-  width: 100%;
+  width: 263px !important;
   border: 0;
   margin: 0 0 15px;
   padding: 15px;
