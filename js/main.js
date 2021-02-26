@@ -627,7 +627,7 @@ $(function() {
        ================================================ */
    
 
-   $(function login()
+   function login()
 
         warning.alert("working");
     }
