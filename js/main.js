@@ -626,9 +626,7 @@ $(function() {
        Login form
        ================================================ */
    
-
-   function login()
-
+    function login() {
         warning.alert("working");
     }
 
