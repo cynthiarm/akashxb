@@ -627,10 +627,10 @@ $(function() {
        ================================================ */
    
 
-   /*  $(function login()
+   $(function login()
 
         warning.alert("working");
-    }*/
+    }
 
 
 
@@ -640,7 +640,7 @@ $(function() {
         warning.alert("working");
      });*/
 
-     $("#contactForm").login(function(e) {
+    /* $("#contactForm").login(function(e) {
         e.preventDefault();
     }).validate({
         rules: {
@@ -662,13 +662,13 @@ $(function() {
             CHECK PAGE FOR REDIRECT (Thank you page)
             ---------------------------------------- */
 
-            var redirect = $('#phpcontactform').data('redirect');
+          /*    var redirect = $('#phpcontactform').data('redirect');
             var noredirect = false;
             if (redirect == 'none' || redirect == "" || redirect == null) {
                 noredirect = true;
             }
 
-            $("#js-contact-result").html('<p class="help-block">Please wait...</p>');
+            $("#js-contact-result").html('<p class="help-block">Please wait...</p>');*/
 
 
 
