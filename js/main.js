@@ -44,7 +44,9 @@ $(function () {
             })
             .catch((error) => {
                 var errorCode = error.code;
-                var errorMessage = error.message;
+				var errorMessage = error.message;
+				alert(errorMessage);
+				window.location.replace('./login.html');
             });
 		} else {
 			window.location.replace('./login.html');
